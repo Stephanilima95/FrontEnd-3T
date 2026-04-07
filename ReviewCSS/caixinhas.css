@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*
+section: borda, padding
+altura 800
+largura 920 centralizada
+*/
+
+.sessao-noticias {
+    width: 920px;
+    height: 800px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+    border: 3px double rgb(0, 0, 0);
+}
+
+/*
+article: cor de fundo, cor do texto
+deixar em coluna , centralizada nos dois eixos
+*/
+.noticia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(50, 3, 3);
+    color: white;
+}
