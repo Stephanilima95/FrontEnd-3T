@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Arquitects;
+    src: url(./fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left bottom, rgb(17, 33, 90), rgb(44, 53, 150), rgb(68, 189, 241));
+    /*margin-top: 20px;*/
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container--flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header__image-perfil {
+    width: 100px;
+    height: 50px;
+
+    box-shadow: 0px 0px 7px rgb(17, 33, 90);
+}
+
+.form-header__title {
+    color: rgb(242, 242, 18);
+    font-family: Arquitects, sans-serif;
+}
+
+.form-header__text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-contact{
+    padding: 20px;
+}
+
+
+.form-contact__linha{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    /* height: 60px; 
+    border: 1px solid red;*/
+}
+
+.form-contact__col-a {
+    width: 15%;
+    height: 100%;
+    /*border: 1px solid rgb(25, 0, 255);*/
+}
+
+.form-contact__col-b {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+   /* border: 1px solid rgb(255, 0, 98);*/
+}
+
+/*tudo que e padrao ficara aqui*/
+
+.form-contact__label {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-contact__input {
+    height: 35px;
+    border-radius: 3px;
+    /*box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5s);*/
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+
+.form-contact__input:focus {
+    background-color:rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0px 0px 15px #ffffff;
+}
+
+.form-contact__input--metade{
+
+    width: 48%;
+}
+
+.form-contact__input--inteiro{
+
+    width: 100%;
+}
+
+.form-contact__input--terco{
+
+    width: 32%;
+}
+
+.form-contact__input--quarto{
+
+    width: 25%;
+}
+
+.form-contact_anotacoes{
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.button {
+    display: center;
+    padding: 10px;
+    width: 40%;
+    margin: 10px 0 20px;
+    font-family: 'Noto Sans Balinese', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: opacity .7s;
+    background-color: transparent;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+.form-contact__col-b--botao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/*Celular*/
+@media (max-width: 768px) {
+  .form-contact__linha {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-contact__col-a {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .form-contact__col-b {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-contact__input--metade {
+    width: 100%;
+    max-width: 100%;
+  }
+  .form-contact__input--terco {
+    width: 100%;
+    max-width: 100%;
+  }
+  .form-contact__input--quarto {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+.form__text {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

@@ -1,0 +1,118 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "João",
+      "sobrenome": "Silva Lima"
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "Oliveira",
+      "id": "2"
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "Oliveira",
+      "id": "c8sGgcAlgz4"
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "Oliveira",
+      "id": "mma_rADufYk"
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "Oliveira",
+      "id": "kyZ-yIMM1CQ"
+    },
+    {
+      "nome": "STEPHANI DANDARA",
+      "sobrenome": "LIMA DOS SANTOS",
+      "id": "ggAK7PPw5sw"
+    },
+    {
+      "nome": "Lucas",
+      "sobrenome": "Marinho",
+      "id": "p7Q6Nn2j2F0"
+    },
+    {
+      "nome": "aaa",
+      "sobrenome": "bbb",
+      "email": "s@f",
+      "pais": "Estados Unidos",
+      "ddd": "11",
+      "telefone": "53280190835",
+      "cep": "09682-100",
+      "rua": "aguarde ...",
+      "numero": "790",
+      "complemento": "Ap 75B",
+      "bairro": "Paulicéia",
+      "cidade": "São Bernardo do Campo",
+      "estado": "São Paulo",
+      "anotacoes": "l",
+      "id": "74hkVsvBXq0"
+    },
+    {
+      "nome": "STEPHANI DANDARA",
+      "sobrenome": "LIMA DOS SANTOS",
+      "email": "stephani.santos@aluno.senai.br",
+      "pais": "Brasil",
+      "ddd": "11",
+      "telefone": "53280190835",
+      "cep": "09682-100",
+      "rua": "Rua Camargo",
+      "numero": "790",
+      "complemento": "Ap 75B",
+      "bairro": "Paulicéia",
+      "cidade": "São Bernardo do Campo",
+      "estado": "São Paulo",
+      "anotacoes": "xx",
+      "id": "gTaU85nIVDs"
+    },
+    {
+      "nome": "STEPHANI DANDARA",
+      "sobrenome": "LIMA DOS SANTOS",
+      "email": "stephani.santos@aluno.senai.br",
+      "pais": "Brasil",
+      "ddd": "11",
+      "telefone": "53280190835",
+      "cep": "09682-100",
+      "rua": "Rua Camargo",
+      "numero": "790",
+      "complemento": "Ap 75B",
+      "bairro": "Paulicéia",
+      "cidade": "São Bernardo do Campo",
+      "estado": "São Paulo",
+      "anotacoes": "c",
+      "id": "hFjxNploXdM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
