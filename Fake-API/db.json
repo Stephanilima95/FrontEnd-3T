@@ -1,0 +1,76 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "João",
+      "email": "joao@example.com"
+    },
+    {
+      "id": "_iQ7kE0hykQ",
+      "nome": "stephani",
+      "email": "ste@example.com"
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "Post": [],
+  "imc": [
+    {
+      "nome": "duda",
+      "altura": 1.63,
+      "peso": 60,
+      "IMC": "22.58",
+      "situacao": "Saudável",
+      "id": "yml-i3wB4fc"
+    },
+    {
+      "nome": "eloysa",
+      "altura": 1.64,
+      "peso": 47,
+      "IMC": "17.47",
+      "situacao": "Magreza leve",
+      "id": "6eYl5kOQAd4"
+    },
+    {
+      "nome": "amy lee",
+      "altura": 1.6,
+      "peso": 60,
+      "IMC": "23.44",
+      "situacao": "Saudável",
+      "id": "yDypwRq2BVo"
+    },
+    {
+      "nome": "stephani",
+      "altura": 1.5,
+      "peso": 65,
+      "IMC": "28.89",
+      "situacao": "Sobrepeso",
+      "id": "0KAxIl92qa4"
+    },
+    {
+      "nome": "davi",
+      "altura": 1.6,
+      "peso": 59,
+      "IMC": "23.05",
+      "situacao": "Saudável",
+      "id": "chGp2Dot8is"
+    },
+    {
+      "nome": "gustavog",
+      "altura": 1.8,
+      "peso": 75,
+      "IMC": "23.15",
+      "situacao": "Saudável",
+      "id": "_aNao-5eJX4"
+    },
+    {
+      "nome": "jucelino",
+      "altura": 1.67,
+      "peso": 70,
+      "IMC": "25.10",
+      "situacao": "Sobrepeso",
+      "id": "Uz9MtyCxOIo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

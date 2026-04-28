@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        alert('Titulo: ' + document.getElementById("title").textContent);
+        function saudacao(){
+            alert(' mouse sae moveu no botao');
+        }
+        function mouseMoveu(){
+            alert(' mouse sae moveu no botao');
+        }
+        function clicouBaixo(){
+            alert(' mouse se moveu no botao');
+        }
+        function clicouSubiu(){
+            alert(' mouse subiu no botao');
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="title">Ola, eu soa o titulo da pagina</h1>
+    <button onclick="saudacao()">Clique aqui</button>
+    <br>
+    <button onmouseover="mouseMoveu()">Passe o mouse por cima</button>
+    <br>
+    <button onmousedown="clicouBaixo()">Segura o Clique  </button>
+    <br>
+    <button onmouseup="clicouSubiu()">Solta o botao</button>
+</body>
+</html>
