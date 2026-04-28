@@ -115,4 +115,3 @@ document.getElementById("cadastro").innerHTML = "";
 await dadosCadastros.forEach(Calc => {
     mostrarNaTela(Calc)});
 }
-

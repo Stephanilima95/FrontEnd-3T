@@ -11,7 +11,7 @@
 
 body {
     height: 100vh;
-    background-image: linear-gradient(to bottom, #B39DDB, #9575CD) ;
+    background-image: linear-gradient(to bottom, #133762, #5ad0ff) ;
     background-repeat: no-repeat;
     font-family: 'ShadowsIntoLight';
 }
@@ -42,7 +42,7 @@ body {
 }
 .calc__title {
     margin-bottom: 20px;
-    color: #673AB7;
+    color: #133762;
 }
 
 .calc__field {
@@ -53,7 +53,7 @@ body {
     font-size: 16px;
     font-family: 'ShadowsIntoLight';
 
-    border: 2px solid #673AB7;
+    border: 2px solid#3d6097;
     border-radius: 5px;
     transition: background-color .4s;
 }
@@ -67,8 +67,8 @@ body {
     height: 35px;
     
     color: white;
-    background-color: #9575CD;
-    border: 1px solid #9575CD;
+    background-color: #3d6097;
+    border: 1px solid #3d6097;
     border-radius: 5px;
 }
 
@@ -82,12 +82,12 @@ body {
 }
 
 .calc__field:focus {
-    background-color: #B39DDB;
-    color: white;
-    outline-color: #512DA8;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    outline-color: #07084b;
 }
 .calc__field:focus::placeholder {
-    color: #512DA8
+    color: #07084b
 }
 
 
