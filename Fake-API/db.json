@@ -72,5 +72,42 @@
       "id": "Uz9MtyCxOIo"
     }
   ],
+  "calculadora": [
+    {
+      "n1": 35,
+      "n2": 6,
+      "op": "subtracao",
+      "resultado": "29.00",
+      "id": "pFq9y5Sq1uQ"
+    },
+    {
+      "n1": 347,
+      "n2": 31,
+      "op": "multiplicacao",
+      "resultado": "10757.00",
+      "id": "ghCryKGcVLg"
+    },
+    {
+      "n1": 574,
+      "n2": 47646,
+      "op": "divisao",
+      "resultado": "0.01",
+      "id": "sL0gp-tAdnE"
+    },
+    {
+      "n1": 574,
+      "n2": 47,
+      "op": "divisao",
+      "resultado": "12.21",
+      "id": "WRgPdJJ-Vws"
+    },
+    {
+      "n1": 574,
+      "n2": 47,
+      "op": "multiplicacao",
+      "resultado": "26978.00",
+      "id": "D59cmATqqnM"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

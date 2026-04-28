@@ -25,11 +25,11 @@ async function calcular() {
     if ("error" in dadosGravados) {
         alert(dadosGravados.error);
     } else {
-        carregarDados(); // corrigido
+        carregarDados();
     }
 }
 
-// 🔍 BUSCAR
+//  BUSCAR
 async function buscarDados() {
     try {
         const resposta = await fetch("http://localhost:3000/imc");
@@ -54,7 +54,7 @@ function carregarDados() {
     buscarDados();
 }
 
-// ➕ CADASTRAR
+// CADASTRAR
 async function cadastrarNaAPI(objCadastro) {
     try {
         const retorno = await fetch("http://localhost:3000/imc", {
@@ -74,7 +74,7 @@ async function cadastrarNaAPI(objCadastro) {
 }
 
 
-// 🖥️ MOSTRAR
+
 function mostrarNaTela(objCadastro) {
     document.getElementById("cadastro").innerHTML += `
     <tr>
@@ -86,12 +86,11 @@ function mostrarNaTela(objCadastro) {
     </tr>`;
 }
 
-// 📊 CÁLCULO
+
 function calcularIMC(peso, altura) {
     return peso / (altura * altura);
 }
 
-// 📌 SITUAÇÃO
 function gerarSituacao(imc) {
     if (imc < 16) return "Magreza grave";
     else if (imc < 17) return "Magreza moderada";
